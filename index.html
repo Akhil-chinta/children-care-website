@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PS Tushar • ChildrenCare — Health, Food & Education</title>
+  <meta name="description" content="Giving children health, food & education — one story at a time. Founded by PS Tushar. Videos fund our impact." />
+  <link rel="icon" href="data:;base64,iVBORw0KGgo="> 
+
+  <style>
+    :root{
+      --bg:#0f1724;
+      --card:#0b1220;
+      --accent:#ff6b6b;
+      --muted:#9aa4b2;
+      --glass: rgba(255,255,255,0.04);
+      --maxw:1100px;
+      --radius:16px;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;background:linear-gradient(180deg,var(--bg),#071023);color:#e6eef6}
+    a{color:inherit}
+    .container{max-width:var(--maxw);margin:32px auto;padding:0 20px}
+
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:56px;height:56px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#ffd48d);display:flex;align-items:center;justify-content:center;font-weight:700;color:#081022}
+    h1.site-title{font-size:18px;margin:0}
+    p.tag{margin:0;font-size:12px;color:var(--muted)}
+
+    nav{display:flex;gap:12px;align-items:center}
+    .btn{background:var(--accent);color:#081022;padding:10px 16px;border-radius:12px;font-weight:600;text-decoration:none}
+    .ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:8px 12px;border-radius:10px}
+
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center;margin-top:28px}
+    .hero-card{background:var(--card);border-radius:20px;padding:28px;box-shadow:0 8px 30px rgba(0,0,0,0.6)}
+    .hero h2{margin:0 0 10px;font-size:28px}
+    .lead{color:var(--muted);margin-bottom:18px}
+    .metrics{display:flex;gap:12px;margin-top:12px}
+    .metric{background:var(--glass);padding:14px;border-radius:12px;min-width:120px;text-align:center}
+    .metric strong{display:block;font-size:20px}
+
+    iframe{width:100%;height:240px;border:0;display:block;border-radius:12px}
+
+    .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:22px}
+    .grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:22px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:18px;border-radius:14px}
+    .card h3{margin:0 0 8px}
+    .muted{color:var(--muted);font-size:14px}
+
+    .impact-list{display:flex;flex-direction:column;gap:12px}
+    .impact-item{display:flex;gap:14px;align-items:flex-start}
+    .impact-item .dot{width:10px;height:10px;border-radius:3px;background:var(--accent);margin-top:6px}
+
+    footer{margin:36px 0 90px;display:flex;justify-content:space-between;align-items:center;color:var(--muted);flex-wrap:wrap;gap:12px}
+
+    @media (max-width:980px){
+      .hero{grid-template-columns:1fr;}
+      .grid-3,.grid-4{grid-template-columns:1fr}
+    }
+
+    .pill{display:inline-block;background:rgba(255,255,255,0.03);padding:6px 10px;border-radius:999px;font-size:13px}
+    input,textarea{width:100%;padding:10px;border-radius:10px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit}
+    .form-row{display:flex;gap:10px}
+    .form-row > *{flex:1}
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- HEADER -->
+    <header>
+      <div class="brand">
+        <div class="logo">
+          <img src="E:\children-care-website\logo\ps tushar food logo .jpg" alt="PS Tushar Food Logo" style="width:56px; height:56px; border-radius:12px;">
+        </div>
+        <h1 class="site-title">PS Tushar Food — ChildrenCare</h1>
+        <p class="tag">Giving children health, food & education — one story at a time</p>
+      </div>
+
+      <nav>
+        <a class="ghost" href="#about">About</a>
+        <a class="ghost" href="#impact">Impact</a>
+        <a class="ghost" href="#join">Join</a>
+        <a class="btn" href="#donate">Donate</a>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <main>
+      <section class="hero">
+        <!-- LEFT HERO CONTENT -->
+        <div class="hero-card">
+          <p class="pill">Community · Hyderabad</p>
+          <h2>Feeding children, restoring hope, building futures.</h2>
+          <p class="lead">We are a small initiative powered by video proceeds and community support. Every month we run food drives, distribute school kits, and provide basic health checks.</p>
+
+          <div class="metrics">
+            <div class="metric"><strong>1,250+</strong><span class="muted">Meals Distributed</span></div>
+            <div class="metric"><strong>320+</strong><span class="muted">Children Helped</span></div>
+            <div class="metric"><strong>85</strong><span class="muted">School Kits</span></div>
+          </div>
+
+          <div style="margin-top:18px;display:flex;gap:12px;flex-wrap:wrap">
+            <a class="btn" href="#donate">Donate Now</a>
+          </div>
+
+          <div style="margin-top:18px">
+            <strong>Next drive:</strong>
+            <div class="muted">Dec 7, 2025 • Hyderabad</div>
+          </div>
+
+          <div class="grid-3" style="margin-top:18px">
+            <div class="card">
+              <h3>How we use funds</h3>
+              <p class="muted">Meals, school supplies, medical checkups, logistics.</p>
+            </div>
+            <div class="card">
+              <h3>Volunteer</h3>
+              <p class="muted">Join our distribution days — help pack, distribute or film.</p>
+            </div>
+            <div class="card">
+              <h3>Partnerships</h3>
+              <p class="muted">Brands and creators can partner to fund a drive.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <aside style="display:flex;flex-direction:column;gap:14px">
+          <!-- VIDEO BLOCK -->
+          <div class="hero-card video-frame">
+            <iframe 
+              src="https://www.youtube.com/embed/dU_IJTQySws" 
+              title="PS Tushar ChildrenCare Food Drive Video"
+              allowfullscreen>
+            </iframe>
+
+            <div style="padding:12px">
+              <strong>Latest: Food Drive — November</strong>
+              <p class="muted">Short recap video — proceeds fund our next drive.</p>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <h3>Quick Impact</h3>
+            <div class="impact-list">
+              <div class="impact-item">
+                <div class="dot"></div>
+                <div><strong>₹200 = 5 meals</strong><div class="muted">Nutritious local meals.</div></div>
+              </div>
+              <div class="impact-item">
+                <div class="dot"></div>
+                <div><strong>₹1,000 = School Kit</strong><div class="muted">Notebook, pencils, bag, hygiene kit.</div></div>
+              </div>
+              <div class="impact-item">
+                <div class="dot"></div>
+                <div><strong>Volunteer</strong><div class="muted">Help distribute or film.</div></div>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <!-- SERVICES -->
+      <section id="services" style="margin-top:28px">
+        <div class="hero-card">
+          <h2>How You Can Help</h2>
+          <p class="muted">Choose your impact area.</p>
+          <div class="grid-4" style="margin-top:16px">
+            <div class="card">
+              <h3>School</h3>
+              <p class="muted">Support school kits and learning supplies.</p>
+              <a class="btn" href="#donate">Support School Kits</a>
+            </div>
+            <div class="card">
+              <h3>Hospital</h3>
+              <p class="muted">Help fund medical checkups and medicine.</p>
+              <a class="btn" href="#donate">Support Healthcare</a>
+            </div>
+            <div class="card">
+              <h3>Food</h3>
+              <p class="muted">Fund meals for children and families.</p>
+              <a class="btn" href="#donate">Support Meals</a>
+            </div>
+            <div class="card">
+              <h3>Images</h3>
+              <p class="muted">See highlights from our drives and events.</p>
+              <a class="btn" href="#gallery">View Images</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" style="margin-top:28px">
+        <div class="hero-card">
+          <h2>About Us</h2>
+          <p class="muted">
+            ChildrenCare is a community-driven initiative led by PS Tushar, dedicated to improving the lives of children through health, education, and nutrition programs. 
+            By leveraging video proceeds and community support, we organize regular food drives, distribute school kits, and provide essential healthcare services, 
+            ensuring every child has the opportunity to thrive.
+          </p>
+        </div>
+      </section>
+
+      <!-- IMPACT -->
+      <section id="impact" style="margin-top:20px">
+        <div class="hero-card">
+          <h2>Impact Stories</h2>
+          <p class="muted">Stories from our drives.</p>
+          <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:12px">
+            <div class="card">
+              <strong>Food Drive • Nov</strong>
+              <p class="muted">Reached 420 children across 3 areas.</p>
+            </div>
+            <div class="card">
+              <strong>School Kits • Aug</strong>
+              <p class="muted">85 school kits distributed.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- JOIN -->
+      <section id="join" style="margin-top:20px">
+        <div class="hero-card">
+          <h2>Get Involved</h2>
+          <p class="muted">Donate, volunteer or collaborate.</p>
+
+          <div style="display:grid;grid-template-columns:1fr 320px;gap:12px">
+            <div>
+              <h3 id="donate">Donate / Contact Us</h3>
+              <p class="muted">Reach out to us directly via any of the following channels:</p>
+              <div style="display:flex; flex-direction:column; gap:10px; margin-top:10px;">
+                <a class="btn" href="mailto:hello@pstushar1.netlify.app">Email: hello@pstushar1.netlify.app</a>
+                <a class="btn" href="tel:+911234567890">Phone: +91 123 456 7890</a>
+                <a class="btn" href="https://www.facebook.com/profile.php?id=61575685928945" target="_blank">Ps Tushar Food Facebook: @ChildrenCare</a>
+                <a class="btn" href="https://www.instagram.com/ps_tushar_food/" target="_blank">Ps Tushar Food Instagram: @ChildrenCare</a>
+                <a class="btn" href="https://www.youtube.com/@ContentCreation-v1d" target="_blank">Ps Tushar Food YouTube: @ChildrenCare</a>
+              </div>
+            </div>
+
+            <div class="card">
+              <h3>Contact & Donate</h3>
+              <p class="muted">Scan the QR code below to donate or get in touch with us directly.</p>
+              <div style="margin-top:12px; display:flex; justify-content:center;">
+                <img src="E:\children-care-website\payment QR\ps tushar food QR.jpg" alt="ChildrenCare QR Code" style="width:200px; height:200px; border-radius:12px;">
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- GALLERY -->
+      <section id="gallery" style="margin-top:28px">
+        <div class="hero-card">
+          <h2>Gallery</h2>
+          <p class="muted">Snapshots from our initiatives.</p>
+
+          <!-- FOOD -->
+          <h3 style="margin-top:16px;">Food</h3>
+          <div class="grid-3" style="margin-top:8px">
+            <div class="card">
+              <img src="E:\children-care-website\food donation\WhatsApp Image 2025-12-11 at 15.26.51_4d7e8d1f.jpg" alt="Food Drive 1" style="width:100%; border-radius:12px;">
+            </div>
+            <div class="card">
+              <img src="E:\children-care-website\food donation\WhatsApp Image 2025-12-11 at 15.26.51_a6f4ec60.jpg" alt="Food Drive 2" style="width:100%; border-radius:12px;">
+            </div>
+            <div class="card">
+              <img src="E:/children-care-website/images/food3.jpg" alt="Food Drive 3" style="width:100%; border-radius:12px;">
+            </div>
+          </div>
+
+          <!-- SCHOOL -->
+          <h3 style="margin-top:16px;">School</h3>
+          <div class="grid-3" style="margin-top:8px">
+            <div class="card">
+              <img src="E:/children-care-website/images/school1.jpg" alt="School Kit 1" style="width:100%; border-radius:12px;">
+            </div>
+            <div class="card">
+              <img src="E:/children-care-website/images/school2.jpg" alt="School Kit 2" style="width:100%; border-radius:12px;">
+            </div>
+            <div class="card">
+              <img src="E:/children-care-website/images/school3.jpg" alt="School Kit 3" style="width:100%; border-radius:12px;">
+            </div>
+          </div>
+
+          <!-- HOSPITAL -->
+          <h3 style="margin-top:16px;">Hospital</h3>
+          <div class="grid-3" style="margin-top:8px">
+            <div class="card">
+              <img src="E:/children-care-website/images/hospital1.jpg" alt="Hospital 1" style="width:100%; border-radius:12px;">
+            </div>
+            <div class="card">
+              <img src="E:/children-care-website/images/hospital2.jpg" alt="Hospital 2" style="width:100%; border-radius:12px;">
+            </div>
+            <div class="card">
+              <img src="E:/children-care-website/images/hospital3.jpg" alt="Hospital 3" style="width:100%; border-radius:12px;">
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div>© PS Tushar Food • ChildrenCare 2025</div>
+      <div style="display:flex;gap:12px">
+        <a class="ghost" href="#">Privacy</a>
+        <a class="ghost" href="#">Terms</a>
+      </div>
+    </footer>
+
+  </div>
+
+  <script>
+    function handleSignup(e){
+      e.preventDefault();
+      const name = document.getElementById('name').value;
+      alert('Thanks ' + name + '! We will contact you shortly.');
+      document.getElementById('signup').reset();
+    }
+  </script>
+</body>
+</html>
